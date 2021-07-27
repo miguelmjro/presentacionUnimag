@@ -1,0 +1,16 @@
+{
+  "name": "presentacion",
+  "version": "1.0.0",
+  "description": "Salesforce Test",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "console.log('init');",
+    "start": "node app.js"
+  },
+  "author": "Miguel",
+  "license": "ISC"
+}
