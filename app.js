@@ -1,4 +1,4 @@
-const port = 3000;
+const port = 80;
 
 var express = require('express');
 let fs = require('fs');
@@ -16,4 +16,4 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 app.listen(port);
-console.log(port + '3000 is the magic port');
+console.log(port + ' is the magic port');
