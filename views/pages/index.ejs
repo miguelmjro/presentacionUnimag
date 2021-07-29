@@ -33,177 +33,359 @@
     data-min-scale="0"
     data-perspective="1000"
     
-    data-autoplay="7">
+    data-autoplay="700">
 
-    <div id="Inicio" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="1000">
-        <h3>¿Qué viene después de los lenguajes de programación?</h3>
-        <q>Aren’t you just <b>bored</b> with all those slides-based presentations?</q>
+    <div id="Preparación" class="step slide " data-x="-1000" data-y="-500">
+        <q>Heramientas necesarias</q>
+        <li><a href="https://code.visualstudio.com/">Vs Code</a></li>
+        <li><a href="https://nodejs.org/es/">Node Js</a></li>
+        <li><a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku Cli</a></li>
+        <li>Esta presentación usa <a href="https://github.com/impress/impress.js/">impress.js</a></li>
+
+    </div>
+
+    <div id="Inicio" class="step slide" data-x="-1000" data-y="-1500">
+        <h1>
+            <q>
+                <p class="typewrite" data-period="2000" data-type='[ "Vivir en las nubes", "Pasar de la consola a la nube", "Trabajar en la nube"]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+        <h1>Ing. Miguel Rivera</h1>
+        <h1>Programa de Extensión</h1>
+        <h1>Programa de Ingeniería Electrónica</h1>
+        <br>
+        <img src="images/EscudoUnimag.png" alt="Unimagdalena" width="200">
+
     </div>
 
     <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don’t you think that presentations given <strong>in modern browsers</strong> shouldn’t <strong>copy the limits</strong> of ‘classic’ slide decks?</q>
+        <q>Un poco de..
+            <br>
+            <li>Mi Historia</li>
+            <li>¿Que es la nube?</li>
+            <li>Manos a la obra</li>
+        </q>
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+        <q>Cómo comienza mi historia</q>
+        <li>Santa Marta, 1990-06-29T22:30:00+0500</li>
+        <li>El mundo era analógico en su mayoría</li>
+        <li>Aun estaba la vieja constitución</li>
     </div>
 
-    <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-        
-    -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div class="step" data-x="1000" data-y="-1000" data-z="200" data-rotate-y="70">
+        <h1>15 Años despues</h1>
     </div>
 
-    <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It’s a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div class="step slide" data-x="1000" data-y="-1500" data-z="-10" data-rotate-y="180">
+        <h3><li>Estudiaba en el San Luis Beltran</li></h3>
+        <h3><li>Aprendí nociones de programación con turtle</li></h3>
+        <h3><li>Aprendí nociones de html estático</li></h3>
+        <br>
+        <img src="images/tortuga.gif" width="300">
+        <img src="images/touga_circulo.gif" width="300">
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    <div class="step slide" data-x="0" data-y="-1500" data-z="-10" data-rotate-y="180">
+        <q>Resultado Prueba de aptitud: Ciencias Naturales</q>
+        <q>Escoger mi carrera fue en parte aleatorio</q>
     </div>
 
-    <!--
-        
-        And now it gets really exciting! We move into third dimension!
-        
-        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
-        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
-        positioned far away from us (by 3000px).
-        
-    -->
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
+    <div class="step slide" data-x="-1000" data-y="-1500" data-z="-10" data-rotate-y="180">
+        <h3><li>Ingrese al programa de Ingeniería Electrónica</li></h3>
+        <h3><li>Año 2007</li></h3>
+        <br>
+        <img src="images/tigoOla.jpg" width="200">
+        <img src="images/motoL6.jpg" width="300">
+
+        <div class="notes">
+            <li>mi segunda opción fue ingenieria de sistemas </li>
+            <li>el motorola L6 solo tenia 10 MB de capacidad </li>
+            <li>cámara de 0.3 Megapíxeles</li>
+            <li>Dato Curioso el Iphone fue lanzado el 29 de junio de ese año y 
+                yo nunca he comprado un he tenido uno para uso diario </li>
+        </div>
+
+    </div>
+    <div id="recapitular" class="step" data-x="0" data-y="0" data-scale="2">
+        <h1>Detengamonos a pensar...</h1>
+        <img src="images/adolecencia.jpg" alt="adolecente" width="200">
+
+        <div class="notes">
+            <li>Era un Adolecente de 16 años</li>
+            <li>Creía que iba a terminar en una juguetería</li>
+            <li>Si no sabia que era una resistencia no me pidas definir un transistor</li>
+            <li>Así muchos entramos a la universidad, Digamos que lo diferente es que yo 
+                tuve la suerte de entrar a algo que me iba a gustar por toda la vida</li>
+        </div>
     </div>
 
-    <!--
-        
-        This step here doesn't introduce anything new when it comes to data attributes, but you
-        should notice in the demo that some words of this text are being animated.
-        It's a very basic CSS transition that is applied to the elements when this step element is
-        reached.
-        
-        At the very beginning of the presentation all step elements are given the class of `future`.
-        It means that they haven't been visited yet.
-        
-        When the presentation moves to given step `future` is changed to `present` class name.
-        That's how animation on this step works - text moves when the step has `present` class.
-        
-        Finally when the step is left the `present` class is removed from the element and `past`
-        class is added.
-        
-        So basically every step element has one of three classes: `future`, `present` and `past`.
-        Only one current step has the `present` class.
-        
-        Note: data-x/y/z attributes, if not defined, by default will inherit the value of the 
-        previous step. So to get back to 0 on the z-axis, we must set it to 0.
-        See src/plugins/rel/README.md for more information.
-        
-    -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div class="step slide" data-x="1500" data-y="0" data-z="0">
+        <img src="images/estudiando.jpg" alt="gideam" width="350">
+        <img src="images/calculo.jpg" alt="gideam" height="350">
+        <img src="images/fuente.jpg" alt="gideam" width="350">
+        <img src="images/osciloscopio_error.jpg" alt="gideam" width="350">
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    <div class="step slide" data-x="2000" data-y="0" data-z="-500" data-rotate-y="90">
+        <img src="images/lcd_error.jpg" alt="gideam" width="350">
+        <img src="images/incubadora.jpg" alt="gideam" width="350">
+        <img src="images/osciloscopio.jpg" alt="gideam" width="350">
+        <img src="images/spartan.jpg" alt="gideam" width="350">
     </div>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/impress/impress.js">use the source</a>, Luke!</q>
+    <div class="step slide" data-x="1500" data-y="0" data-z="-1000" data-rotate-y="180">
+        <img src="images/GideamLogo.jpeg" alt="gideam" width="350">
+        <img src="images/IEEE.jpg" alt="IEEE" width="350">
     </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
+    <div class="step slide" data-x="1000" data-y="0" data-z="-500" data-rotate-y="270">
+        <q>
+            <li>Conseguí tema para la tesis</li>
+            <li>Financiación de equipos para desarrollarlas</li>
+            <li>Participación en eventos</li>
+            <li>Publicacion de Articulo Cientifico</li>
+            <li>Recomendacion para mi primer trabajo</li>
+        </q>
     </div>
 
-    <!--
-        
-        And the last one shows full power and flexibility of impress.js.
-        
-        You can not only position element in 3D, but also rotate it around any axis.
-        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
-        10 degrees (clockwise) around Y axis.
-        
-        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
-        as `data-rotate` (these two are basically aliases).
-        
-    -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
+    <div class="step slide" data-x="1500" data-y="-450" data-z="-500" data-rotate-x="90" data-rotate-z="270">
+        <img src="images/iee_xtreme.jpg" alt="gideam" width="350">
+        <img src="images/pc_watercooling.jpg" alt="gideam" width="350">
+        <img src="images/colcom.jpg" alt="gideam" width="350">
+        <img src="images/fotoCongreso.JPG" alt="gideam" width="350">
     </div>
 
-    <!--
+    <div class="step slide" data-x="1500" data-y="450" data-z="-500" data-rotate-x="-90" data-rotate-z="270">
+        <q>Dr. Movil Tesis de grado</q>
+        <img src="images/dr_MovilBB.png" alt="tesis" height="350">
+        <img src="images/dr_MovilAD.png" alt="tesis" height="350">
+    </div>
+
+    <div class="step" data-x="2500" data-y="450" data-z="-500" data-rotate-x="-90" >
+        <q>
+            <li>Joven investigador 2013-2014</li>
+        </q>
+        <img src="images/Gideam_foto.jpg" alt="">
+
+        <div class="notes">
+            <li>Joven de 22 años</li>
+            <li>Ingeniero recien graduado</li>
+            <li>Comenzando una carrera en la academia</li>
+            <li></li>
+        </div>
+    </div>
+
+    <div class="step" data-x="2500" data-y="450" data-z="-500" data-rotate-x="-90"  data-rotate-y="90">
+        <li>Santa Marta en la TV</li>
+        <li>Space app Challenge</li>
+        <li>Conferencia de comunicaciones</li>
+        <li>Campus party 2013</li>
+        <li>Articulo Cientifico</li>
+    </div>
+
+    <div class="step" data-x="2500" data-y="450" data-z="-1300" data-rotate-x="-90"  data-rotate-y="90" >
+        <q>
+            <li>Master 2014-2015</li>
+        </q>
+        <img src="images/master.JPG" width="500">
+
+        <div class="notes">
+            <li>Conocí bastante personas que hasta el dia de hoy siguen conmigo</li>
+            <li>aprendi nociones de administracion de empresas</li>
+            <li>Prebuild entro en quiebra</li>
+        </div>
+    </div>
+
+
+    <div class="step" data-x="2500" data-y="450" data-z="-1300" data-rotate-x="-90" >
+        <q>
+           Gerente de Mercadeo, Dentalium 2015 ago-dic
+        </q>
+        <br>
+        <img src="images/dentalium.jpg" width="500">
+    </div>
+
+
+    <div class="step" data-x="2500" data-y="450" data-z="-2200" data-rotate-x="-90" >
+        <q>
+           Hardtech, 2015-2016
+        </q>
+        <br>
+        <img src="images/hardtech.jpeg" width="500">
+    </div>
+
+
+    <div class="step" data-x="2500" data-y="450" data-z="-2200" data-rotate-x="-90" data-rotate-y="90" >
+        <q>
+           Avanxo, 2016-2018
+        </q>
+        <br>
+        <img src="images/Avanxo.jpg" width="500">
+    </div>
+
+
+    <div class="step" data-x="2500" data-y="450" data-z="-3100" data-rotate-x="-90" data-rotate-y="90" >
+        <q>
+           Mahisoft, 2018-Hoy
+        </q>
+        <br>
+        <img src="images/Mahisoft.jpg" width="500">
+    </div>
+
+    <div class="step" data-x="2500" data-y="450" data-z="-3100" data-rotate-x="-90">
+        <q>
+           ¿Que es la nube?
+        </q>
+        <br>
+        <img src="images/cloud.jpg" width="500">
+    </div>
+
+    <div class="step slide" data-x="2500" data-y="1500" data-z="-3100" data-rotate-x="-90">
+        Red de servidores interconectados y no centralizados
+       <br>
+       <q><img src="images/red.png" width="500"></q>
+    </div>
+
+    <div class="step slide" data-x="1500" data-y="1500" data-z="-3100" data-rotate-x="-70">
+            <q><img src="images/ispaas.jpg" width="500"></q>
+            <a href="https://sites.google.com/site/siclou003/conceptos-previos/capas-de-cloud-computing">Fuente</a>
+    </div>
+
+    <div class="step" data-x="500" data-y="500" data-z="-3100" data-rotate-x="40" data-rotate-y="20" >
+        <q><img src="images/redhat.png" width="800"></q>
+        <a href="https://www.redhat.com/es/topics/cloud-computing/what-is-iaas#:~:text=La%20infraestructura%20como%20servicio%20(IaaS,con%20la%20inform%C3%A1tica%20sin%20servidor.">Fuente redhat</a>
+    </div>
+    <div class="step" data-x="-500" data-y="-500" data-z="-6000" data-rotate-x="-40" data-rotate-y="120" >
+        <q><img src="images/cafe.gif" width="700"></q>
+    </div>
+
+    <div class="step slide" data-x="500" data-y="-500" data-z="-3100" data-rotate-x="40" data-rotate-y="20" >
+            
+        <h1>
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Manos a la obra: "]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+            <table style="width:100%">
+                <tr>
+                    <td>Node js</td>
+                </tr>
+            </table>
+            <li>Abrimos VSCode</li>
+            <li>Creamos una carpeta</li>
+            <li>creamos un archivo llamado app.js</li>
+            <li>ejecutamos el comando <a>npm init</a></li>
+            <li>añadimos las dependencias 
+                "dependencies": {
+                  "express": "^4.17.1"
+                },</li>
+    </div>
+
+    <div class="step slide" data-x="200" data-y="-300" data-z="-2500" data-rotate-x="140" data-rotate-y="-20" >
         
-        So to summarize of all the possible attributes used to position presentation steps, we have:
+        <h1>
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Manos a la obra: "]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+        <table style="width:100%">
+            <tr>
+                <td>app.js</td>
+            </tr>
+        </table>
+        <li style="font-size: medium;line-height: 1.6;">const port = 3000;<br/>var express = require('express');<br/>var app = express();<br/>const path = require('path');<br/>// pagina raiz<br/>app.get('/', function(req, res) {<br/>    res.set('Content-Type', 'text/html');<br/>    res.send('&lt;html&gt;&lt;body&gt;&lt;p&gt;Hola unimag&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;');<br/>    //res.sendFile(path.join(__dirname, '/index.html'));<br/>});<br/>app.listen(port);<br/>console.log(port + ' es el puerto de la magia');</li>
+    </div>
+
+    <div class="step slide" data-x="-400" data-y="-200" data-z="-1000" data-rotate-x="40" data-rotate-y="20" >
+            
+        <h1>
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Manos a la obra: "]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+            <table style="width:100%">
+                <tr>
+                    <td>Node js</td>
+                </tr>
+            </table>
+            <li>npm install</li>
+            <li>npm start</li>
+            <li>en un explorador abrimos <a href="http://localhost:3000">http://localhost:3000</a></li>
+            <li>git init</li>
+            <li>crear archivo .gitignore que contenga "node_modules"</li>
+    </div>
+
+    <div class="step slide" data-x="300" data-y="10" data-z="-2200" data-rotate-x="-10" data-rotate-y="160" >
         
-        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
-            the canvas in pixels; their default value is 0;
-        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
-            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
-            are exactly the same;
-        * `data-scale` - defines the scale of step element; default value is 1
+        <h1>
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Manos a la obra: "]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+        <table style="width:100%">
+            <tr>
+                <td>Heroku</td>
+            </tr>
+        </table>
+        <li>heroku login</li>
+        <li>heroku create</li>
+        <li>apuntamos el nombre</li>
+        <li>cd ubicacion_de_mi_Proyecto</li>
+        <li>heroku git:remote -a Nombre_apuntado</li>
+        <li>git add .</li>
+        <li>git commit -am "Primer Commit"</li>
+        <li>git push heroku master</li>
+        <li>Dirigete a heroku y verifica que este funcionando</li>
+        <li>heroku logs --tail -a Nombre_apuntado</li>
+    </div>
+
+    <div class="step slide" data-x="1300" data-y="10" data-z="-2200" data-rotate-x="-10" data-rotate-y="160" >
         
-        These values are used by impress.js in CSS transformation functions, so for more information consult
-        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
-        
-    -->
+        <h1>
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Manos a la obra: "]'>
+                    <span class="wrap"></span>
+                </p>
+            </q>
+        </h1>
+        <table style="width:100%">
+            <tr>
+                <td>Heroku</td>
+            </tr>
+        </table>
+        <li>const port = process.env.PORT || 3000;</li>
+        <li>git commit -am "Cambiamos puerto"</li>
+        <li>heroku logs --tail -a Nombre_apuntado</li>
+    </div>
+
+    <div class="step slide" data-x="-300" data-y="1000" data-z="-1000" data-rotate-x="-10" data-rotate-y="160" >
+            <q>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "¿Y ahora? "]'>
+                    <span class="wrap"></span>
+                </p>
+                <li>Comentarios</li>
+                <li>Preguntas</li>
+            </q>
+    </div>
+
     <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
     </div>
 
 </div>
-
-<!--
-    This is a UI plugin. You can read more about plugins in src/plugins/README.md.
-    For now, I'll just tell you that this adds some graphical controls to navigate the
-    presentation. In the CSS file you can style them as you want. We've put them bottom right.
--->
 <div id="impress-toolbar"></div>
 
-<!--
-    
-    Hint is not related to impress.js in any way.
-    
-    But it can show you how to use impress.js features in creative way.
-    
-    When the presentation step is shown (selected) its element gets the class of "active" and the body element
-    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
-    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
-    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
-    
-    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
-    the first step of presentation is visible for a couple of seconds.
-    
-    ...
-    
-    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
-    It's just a quick and dirty workaround to get different hint text for touch devices.
-    In a real world it should be at least placed in separate JS file ... and the touch content should be
-    probably just hidden somewhere in HTML - not hard-coded in the script.
-    
-    Just sayin' ;)
-    
--->
 <div class="hint">
     <p>Buenas tardes y sean bienvenidos... la presentación comenzará en breve</p>
 </div>
@@ -212,92 +394,10 @@ if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
 }
 </script>
-
-<!--
-    
-    Last, but not least.
-    
-    To make all described above really work, you need to include impress.js in the page.
-    I strongly encourage to minify it first.
-    
-    In here I just include full source of the script to make it more readable.
-    
-    You also need to call a `impress().init()` function to initialize impress.js presentation.
-    And you should do it in the end of your document. Not only because it's a good practice, but also
-    because it should be done when the whole document is ready.
-    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
-    
--->
 <script src="js/impress.js"></script>
+<script src="js/animation.js"></script>
 <script>impress().init();</script>
-
-<!--
-    
-    The `impress()` function also gives you access to the API that controls the presentation.
-    
-    Just store the result of the call:
-    
-        var api = impress();
-    
-    and you will get three functions you can call:
-    
-        `api.init()` - initializes the presentation,
-        `api.next()` - moves to next step of the presentation,
-        `api.prev()` - moves to previous step of the presentation,
-        `api.goto( stepIndex | stepElementId | stepElement, [duration] )` - moves the presentation to the step given by its index number
-                id or the DOM element; second parameter can be used to define duration of the transition in ms,
-                but it's optional - if not provided default transition duration for the presentation will be used.
-    
-    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
-    Don't worry, it wont initialize the presentation again.
-    
-    For some example uses of this API check the last part of the source of impress.js where the API
-    is used in event handlers.
-    
--->
-
 </body>
 </html>
 
-<!--
-    
-    Now you know more or less everything you need to build your first impress.js presentation, but before
-    you start...
-    
-    Oh, you've already cloned the code from GitHub?
-    
-    You have it open in text editor?
-    
-    Stop right there!
-    
-    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
-    first needs to grow in your mind.
-    
-    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
-    
-    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
-    to present. It will get you closer and closer to the layout you'll build later with impress.js.
-    
-    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
-    it earlier, because you'll only waste your time fighting with positioning of useless points.
-    
-    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
-    creating awesome and engaging presentations.
-    
-    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
-    
--->
-
-<!--
-    
-    Are you still reading this?
-    
-    For real? I'm impressed! 
-    
-    But now, take my advice and take some time off. Make yourself a cup of coffee, tea,
-    or anything you like to drink.
-    
-    Cheers!
-    
--->
 
